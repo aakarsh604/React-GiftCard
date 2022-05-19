@@ -1,0 +1,65 @@
+.main {
+ height: 450px;
+ width: 800px;
+ margin: auto;
+ display: flex;
+ justify-content: space-between;
+ padding: 50px;
+ box-sizing: border-box;
+}
+
+.div1 {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.div2 {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.para {
+    font-size: 26px;
+    margin: 0px;
+}
+
+.case {
+    background: #000;
+    color : white;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.head {
+    font-size: 40px;
+    margin: -15px 0px;
+}
+
+.togglebtn {
+    margin-top: 50px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.togglebtn:hover {
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
